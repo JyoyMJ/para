@@ -162,8 +162,7 @@ background:radial-gradient(circle 400px ,#0c1826,#000000);overflow:auto;
 }
 
 .contentphotos{
-	width:100%;
-	display: grid;
+	width:100%;display: grid;
 	grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
 	padding: 10px;
 	overflow:scroll;
@@ -174,6 +173,7 @@ background:radial-gradient(circle 400px ,#0c1826,#000000);overflow:auto;
 	background-color: rgba(5, 63, 101, 0.066);
 	padding: 45px;
 	margin: 10px;
+	box-shadow: #000000 2px 3px 4px;
 	border-radius: 3px;
 }
 
@@ -181,4 +181,5 @@ background:radial-gradient(circle 400px ,#0c1826,#000000);overflow:auto;
 margin:8px;
 
 }
+
 
