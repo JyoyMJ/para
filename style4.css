@@ -162,11 +162,12 @@ background:radial-gradient(circle 400px ,#0c1826,#000000);overflow:auto;
 }
 
 .contentphotos{
-	width:80%;display: grid;
+	width:100%;
+	display: grid;
 	grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
 	padding: 10px;
 	overflow:scroll;
-	height: 500px;
+	height: 440px;
 	background:radial-gradient(circle 400px ,#0c1826,#000000);
 }
 .photoscontainer{
@@ -178,4 +179,5 @@ background:radial-gradient(circle 400px ,#0c1826,#000000);overflow:auto;
 
 .photoscontainer:hover{
 margin:8px;
+
 }
