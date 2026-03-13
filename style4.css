@@ -17,7 +17,7 @@ body{
 	padding-top:0px;
 	margin:0px;
     background:linear-gradient(#162941,black);
-	width:stretch;
+	width:100%;
 	color:white;
 }
 
@@ -181,6 +181,7 @@ background:radial-gradient(circle 400px ,#0c1826,#000000);overflow:auto;
 margin:8px;
 
 }
+
 
 
 
