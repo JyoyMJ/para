@@ -17,7 +17,7 @@ body{
 	padding-top:0px;
 	margin:0px;
     background:linear-gradient(#162941,black);
-	width:100%;
+	width:strech;
 	color:white;
 }
 
@@ -163,6 +163,7 @@ background:radial-gradient(circle 400px ,#0c1826,#000000);overflow:auto;
 
 .contentphotos{
 	width:100%;display: grid;
+	min-width:750px;
 	grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
 	padding: 10px;
 	overflow:scroll;
@@ -181,5 +182,6 @@ background:radial-gradient(circle 400px ,#0c1826,#000000);overflow:auto;
 margin:8px;
 
 }
+
 
 
