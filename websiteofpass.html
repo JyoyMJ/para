@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Private Page</title>
+  <script>
+    function checkPassword() {
+      var password = prompt("what is Abra ka Dabra 🙄");
+      if (password === "gulabjamun") {
+        document.getElementById("content").style.display = "block";
+      } else {
+        alert("This page is only for my babu 😑😠");
+        window.location.href = "https://share.google/Hdmyppvbj7sFXjxfp";
+      }
+    }
+  </script>
+</head>
+
+<body onload="checkPassword()">
+  <div id="content" style="display:none; text-align:center; margin-top:100px;">
+    <h1>Hi ❤️</h1>
+    <p>This page is only for you.</p>
+  </div>
+</body>
+</html>
